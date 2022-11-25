@@ -20,12 +20,12 @@ function App() {
   return (
       <div className='App'>
           <Routes>
-            <Route exact path="/sonicLibrarySystem-frontend/" element={ <Home/> } />
-            <Route exact path="/sonicLibrarySystem-frontend/signIn" element={ <SignIn/> } />
-            <Route path="*" element={<Navigate to="/sonicLibrarySystem-frontend/" replace />}/>
+            <Route exact path="/SonicLibrarySystem/" element={ <Home/> } />
+            <Route exact path="/SonicLibrarySystem/signIn" element={ <SignIn/> } />
+            <Route path="*" element={<Navigate to="/SonicLibrarySystem/" replace />}/>
             <Route  element={<PrivateRoutes/>} >
-              <Route exact path="/sonicLibrarySystem-frontend/dashboard" element={ <Dashboard/> } />
-              <Route exact path="/sonicLibrarySystem-frontend/sector1" element={ <Sector1/> } />
+              <Route exact path="/SonicLibrarySystem/dashboard" element={ <Dashboard/> } />
+              <Route exact path="/SonicLibrarySystem/sector1" element={ <Sector1/> } />
             </Route>
           </Routes>
       </div>

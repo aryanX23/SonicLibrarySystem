@@ -9,7 +9,7 @@ export default function SignIn(){
     React.useEffect(() => {
         let isAuth = JSON.parse(localStorage.getItem('isLoggedIn')).isLoggedIn;
         if(isAuth && isAuth !== null) {
-            navigate("/sonicLibrarySystem-frontend/dashboard");
+            navigate("/SonicLibrarySystem/dashboard");
         }
     }, [navigate]);
     const [creds,setCreds]=React.useState({email:"",password:""});
@@ -31,11 +31,11 @@ export default function SignIn(){
             }
         }).then(response=>{
             localStorage.setItem("isLoggedIn",JSON.stringify(response.data));
-            navigate("/sonicLibrarySystem-frontend/dashboard");
+            navigate("/SonicLibrarySystem/dashboard");
         });
     }
     function handleClick(){
-        navigate("/sonicLibrarySystem-frontend/");
+        navigate("/SonicLibrarySystem/");
     }
     function handleForgot(){
         //Adding functionality later :)
