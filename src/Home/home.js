@@ -7,11 +7,11 @@ export default function Home(){
     React.useEffect(() => {
         let isAuth = JSON.parse(localStorage.getItem('isLoggedIn')).isLoggedIn;
         if(isAuth && isAuth !== null) {
-            navigate("/sonicLibrarySystem/dashboard");
+            navigate("/sonicLibrarySystem-frontend/dashboard");
         }
     }, [navigate]);
     function handleClick(){
-        navigate("/sonicLibrarySystem/signIn");
+        navigate("/sonicLibrarySystem-frontend/signIn");
     }
     return(
         <div className="homePage">

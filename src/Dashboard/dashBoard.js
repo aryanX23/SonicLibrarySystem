@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Dashboard(){
     const navigate = useNavigate();
     function handleRedirect(){
-        navigate("/sonicLibrarySystem/sector1");
+        navigate("/sonicLibrarySystem-frontend/sector1");
     }
     return(
         <div className="dashboardBody">

@@ -20,7 +20,7 @@ export default function Navbar(){
             withCredentials:true
         }).then(response=>{
             localStorage.setItem("isLoggedIn",JSON.stringify(response.data));
-            navigate("/sonicLibrarySystem/");
+            navigate("/sonicLibrarySystem-frontend/");
         });
     }
     return(

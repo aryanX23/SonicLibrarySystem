@@ -24,7 +24,7 @@ export default function Sector1(){
             <Navbar/>
             <div className="sector1MainBody">
                 <motion.div className="arrowTitle" initial={{ y: '-20vh',opacity:0}} animate={{y:'0vh',opacity:1}} transition={{type:'spring', duration: 3, bounce:0.3}} >
-                    <Link to="/sonicLibrarySystem/dashboard">
+                    <Link to="/sonicLibrarySystem-frontend/dashboard">
                     <img src={process.env.PUBLIC_URL+"/images/backArrowIcon.png"} className="backArrowIcon" alt="logo"/>
                     </Link>
                     <span>Sector - 1</span>
