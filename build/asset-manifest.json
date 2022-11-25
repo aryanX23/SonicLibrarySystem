@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sonicLibrarySystem/static/css/main.8de333c2.css",
+    "main.js": "/sonicLibrarySystem/static/js/main.6c9a39d0.js",
+    "static/media/signInBg.jpg": "/sonicLibrarySystem/static/media/signInBg.6f3a0ffe30b16f7f73a8.jpg",
+    "static/media/homeBg.jpg": "/sonicLibrarySystem/static/media/homeBg.86de39ea136ab8183bec.jpg",
+    "static/media/dashboardBg.jpg": "/sonicLibrarySystem/static/media/dashboardBg.5efca3f50165d2a2773b.jpg",
+    "index.html": "/sonicLibrarySystem/index.html",
+    "main.8de333c2.css.map": "/sonicLibrarySystem/static/css/main.8de333c2.css.map",
+    "main.6c9a39d0.js.map": "/sonicLibrarySystem/static/js/main.6c9a39d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8de333c2.css",
+    "static/js/main.6c9a39d0.js"
+  ]
+}
