@@ -8,6 +8,7 @@ import { Routes, Route, Navigate} from "react-router-dom";
 import PrivateRoutes from './utils/privateRoutes.js'; 
 import axios from 'axios'; 
 function App() {
+  localStorage.setItem("isLoggedIn",JSON.stringify({isLoggedIn:false}));
   React.useEffect(()=>{axios({
     method: 'post',
     url:"http://65.1.134.113:4000/login",
