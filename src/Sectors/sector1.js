@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Sector1(){
     const [style,setStyle]=React.useState({backgroundColor:'rgba(20, 255, 0, 0.8)'});
     React.useEffect(() => {
-        const socket=clientSocket('http://localhost:4000');
+        const socket=clientSocket('http://65.1.134.113:4000');
         socket.on('dataArduino',response=>{
             if(response.data.noiseLevel==="MID" && style.backgroundColor !=='rgba(255, 138, 0, 0.8)')
                 setStyle(prev=>({backgroundColor:'rgba(255, 138, 0, 0.8)'}));

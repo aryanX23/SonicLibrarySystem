@@ -10,7 +10,7 @@ import axios from 'axios';
 function App() {
   React.useEffect(()=>{axios({
     method: 'post',
-    url:"http://localhost:4000/login",
+    url:"http://65.1.134.113:4000/login",
     headers: {'Content-Type': 'application/json'}, 
     withCredentials:true
     }).then(response=>{
