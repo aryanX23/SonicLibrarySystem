@@ -27,7 +27,7 @@ export default function Home(){
             </div>
             <div className="footer" >
                 <div className="leftInner">
-                    <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 3 }} >
+                    <motion.span className="foooterTitle" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 3 }} >
                     ABOUT US    
                     </motion.span>
                     <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 3 }} >

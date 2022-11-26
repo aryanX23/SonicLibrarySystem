@@ -81,6 +81,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.foooterTitle{
+    font-size: 1.3em;
+}
 .leftInner{
     display: flex;
     flex-direction: column; 
@@ -93,4 +96,5 @@
     width:13em;
     padding-right: 0em;
     padding: 1.5em;
+    font-size: 1.2em;
 }

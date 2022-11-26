@@ -52,7 +52,7 @@ export default function SignIn(){
                 </motion.div>
                 <img src={process.env.PUBLIC_URL+"/images/midLine.png"} alt="midLine"/>
                 <motion.div className="rightField" initial={{ x: '+100vw',opacity:0}} animate={{x:0,opacity:1}} transition={{type:'spring', duration: 2, bounce:0}} >
-                    <input type="text" onChange={handleChange} placeholder="Email/Username" name="email" className="boxEmail" />
+                    <input type="text" onChange={handleChange} placeholder="Email" name="email" className="boxEmail" />
                     <input type="password" onChange={handleChange} placeholder="Password" name="password" className="boxPass" />
                     <span className="forgotText" onClick={handleForgot} >Forgot Password?</span>
                     <button className="signInButton" onClick={handleLogin}>Login</button>
