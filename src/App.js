@@ -7,6 +7,7 @@ import React from 'react';
 import { Routes, Route, Navigate} from "react-router-dom";
 import PrivateRoutes from './utils/privateRoutes.js'; 
 import axios from 'axios'; 
+import SectorUnderConstruction from './Sectors/sectorUnderConstruction';
 function App() {
   localStorage.setItem("isLoggedIn",JSON.stringify({isLoggedIn:false}));
   React.useEffect(()=>{axios({
@@ -27,6 +28,7 @@ function App() {
             <Route  element={<PrivateRoutes/>} >
               <Route exact path="/SonicLibrarySystem/dashboard" element={ <Dashboard/> } />
               <Route exact path="/SonicLibrarySystem/sector1" element={ <Sector1/> } />
+              <Route exact path="/SonicLibrarySystem/sectorUnderConstruction" element={ <SectorUnderConstruction/> } />
             </Route>
           </Routes>
       </div>

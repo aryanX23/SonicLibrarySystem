@@ -8,6 +8,9 @@ export default function Dashboard(){
     function handleRedirect(){
         navigate("/SonicLibrarySystem/sector1");
     }
+    function handleConstruction(){
+        navigate("/SonicLibrarySystem/sectorUnderConstruction");
+    }
     return(
         <div className="dashboardBody">
             <Navbar/>
@@ -16,13 +19,13 @@ export default function Dashboard(){
                     <div className="sector" onClick={handleRedirect}>
                         <span>Sector - 1</span>
                     </div>
-                    <div className="sector">
+                    <div className="sector" onClick={handleConstruction}>
                         <span>Sector - 2</span>
                     </div>
-                    <div className="sector">
+                    <div className="sector" onClick={handleConstruction}>
                         <span>E- Library</span>
                     </div>
-                    <div className="sector">
+                    <div className="sector" onClick={handleConstruction}>
                         <span>Discussion<br/>Room</span>
                     </div>
                 </motion.div>
