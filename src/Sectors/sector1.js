@@ -9,7 +9,7 @@ export default function Sector1(){
     React.useEffect(() => {
         const socket=clientSocket('http://43.205.29.72:4000');
         socket.on('dataArduino',response=>{
-            if(response.data.noiseLevel==="MID" && style.backgroundColor !=='rgba(255, 138, 0, 0.8)')
+            if(response.data.noiseLevel==="MID" && style.backgroundColor !=='rgba(255, 49, 49, 0.8)')
                 setStyle(prev=>({backgroundColor:'rgba(255, 138, 0, 0.8)'}));
             else if(response.data.noiseLevel==="HIGH")
                 setStyle(prev=>({backgroundColor:'rgba(255, 49, 49, 0.8)'}));
