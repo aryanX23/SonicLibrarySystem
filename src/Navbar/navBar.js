@@ -15,7 +15,7 @@ export default function Navbar(){
     function handleLogOut(){
         axios({
             method: 'post',
-            url:"http://43.205.29.72:4000/logout",
+            url:"http://34.93.23.2:4000/logout",
             headers: {'Content-Type': 'application/json'}, 
             withCredentials:true
         }).then(response=>{
