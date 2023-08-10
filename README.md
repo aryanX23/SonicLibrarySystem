@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SONIC LIBRARY SYSTEM
 
-## Available Scripts
+The Sonic Library System is an innovative project designed to monitor and manage sound levels within a library environment. It involves placing Arduino units on each library table to accurately sense and measure sound levels. These units then transmit this data to a central hub, which is typically managed by a librarian or library staff.
+## Functions
 
-In the project directory, you can run:
+The main functions of the Sonic Library System are:
 
-### `npm start`
+- Sound Level Monitoring: The Arduino units continuously monitor the sound levels at each table in the library. This real-time data is collected and sent to the central hub, providing an up-to-date overview of the noise levels throughout the library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Data Visualization: The central hub's software provides an intuitive and user-friendly interface to monitor and manage sound levels across the library. Instead of using traditional graphical representations, the system employs a color-coded approach, i.e, green, orange, and red to indicate the noise levels at each table. This approach offers a quick and easily understandable visual snapshot of the library's noise situation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Remote Management: The librarian can interact with the system's software to take appropriate actions. By clicking on specific tables on the software interface, the librarian can reset the sound levels at those tables. This capability empowers the librarian to proactively manage noise disruptions without physically visiting each table.
 
-### `npm test`
+- Efficiency and Decorum Maintenance: The Sonic Library System aims to reduce the need for constant manual monitoring and intervention by library staff. This automated approach contributes to maintaining a quieter and more conducive environment for studying and reading, enhancing the overall decorum of the library.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Target Audience
 
-### `npm run build`
+- The Sonic Library System primarily caters to libraries, educational institutions, and other similar quiet environments. Its target audience includes:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Librarians and Library Staff: The system assists librarians and staff in efficiently managing noise levels within the library, allowing them to focus on other tasks while ensuring a peaceful environment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Library Patrons: Library users benefit from the project as well, as it helps maintain a quieter and more conducive atmosphere for studying, reading, and research.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Educational Institutions: The system can be adopted by schools, colleges, and universities to ensure that their libraries provide an optimal environment for learning and concentration.
 
-### `npm run eject`
+## Summary
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In conclusion, the Sonic Library System stands as a technological marvel, seamlessly integrating Arduino-based table sensors and a centralized hub. Its innovative approach transforms noise management, offering a real-time color-coded visualization of noise levels—green for serenity, orange for moderation, and red for potential disruption. Librarians wield proactive control, ensuring a tranquil atmosphere that enhances the library's essence as a sanctuary for both staff and patrons.
+## Authors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Indrajith S B](https://github.com/Indrajith-S)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+![Home](https://raw.githubusercontent.com/Indrajith-S/MyBucket/main/homr.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Login](https://raw.githubusercontent.com/Indrajith-S/MyBucket/main/login.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Sector](https://raw.githubusercontent.com/Indrajith-S/MyBucket/main/secotr.png)
 
-### Code Splitting
+![Table](https://raw.githubusercontent.com/Indrajith-S/MyBucket/main/table.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
